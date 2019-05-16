@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Fabflix </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+        
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Logo -->
+						<h1><a href="index.html" id="logo">Fabflix</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+                                <li><a href="Search.html">Search</a></li>
+                                <li><a href="Browse.html">Browse</a></li>
+                                <li><a href="Dashboard.html">Dashboard</a></li>
+                                <li><a href="Cart.html">Cart</a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div id="content">
+
+							<!-- Content -->
+
+								<article>
+									<header>
+										<h2>Login</h2>
+										<p>Enter your username and password.</p>
+									</header>
+                                    <form id="login_form" method="post" action="Login">
+                                        <label><b>Email</b></label>
+                                        <input type="text" placeholder="Enter Email" name="username">
+                                            <br>
+                                            <label><b>Password</b></label>
+                                            <input type="password" placeholder="Enter Password" name="password">
+                                                <br>
+                                                <!--  <div class="g-recaptcha" data-sitekey="6LeYYUcUAAAAALgiSY86WWiUQykcDghNEyfNMfjh"></div> -->
+                                            <input type="submit" value="Login">
+                                                    
+                                    </form>
+                                    <div id="login_error_message"></div>
+                                    
+                                    <!-- include jQuery-->
+                                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                                    <!-- include our own JS file -->
+                                    <script src="./login.js"></script>
+
+                                </article>
+
+						</div>
+					</div>
+				</section>
+
+
+
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
