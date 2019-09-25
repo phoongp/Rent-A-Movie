@@ -1,2 +1,2 @@
 #Rent-A-Movie
-A dummy website where customers can rent or buy movies as they please.
+A web application that replicates a real-world movie ecommerce website where customers can browse, search and checkout as they please.
